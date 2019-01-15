@@ -21,8 +21,13 @@ var params = {
 visualRecognition.classify(params, function(err, response) {
   if (err)
     console.log(err);
-  else
-    console.log(JSON.stringify(response, null, 2))
+  else{
+        // Store the response into a string
+    var result = JSON.stringify(response,null,2);
+    res.end(result);
+    console.log(result);
+    
+  }
 });
 
 })
