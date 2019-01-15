@@ -11,7 +11,7 @@ var visualRecognition = new VisualRecognitionV3({
   iam_apikey: '_VRCS864yRVdgL4ORo1QLlS9Mkb2aw42bYNDcmD10Djv'
 });
 
-var images_file = fs.createReadStream('./picture.jpg');
+// var images_file = fs.createReadStream('./picture.jpg');
 var classifier_ids = ["food"];
 
 var params = {
