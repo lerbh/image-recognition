@@ -8,7 +8,7 @@ app.get("/test",function(req,res){
 
 var visualRecognition = new VisualRecognitionV3({
   version: '2018-03-19',
-  iam_apikey: 'c5f5a7a00ea582223e8e5f4682d375dd41ec46b9'
+  iam_apikey: '_VRCS864yRVdgL4ORo1QLlS9Mkb2aw42bYNDcmD10Djv'
 });
 
 var images_file = fs.createReadStream('./picture.jpg');
